@@ -1,0 +1,24 @@
+{
+  "name": "manageiq-api-mock",
+  "version": "1.0.0",
+  "description": "Mock REST API for ManageIQ",
+  "author": "Red Hat",
+  "main": "index.js",
+  "repository": "https://github.com/ManageIQ/manageiq-api-mock.git",
+  "license": "Apache-2.0",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "6.9.1",
+    "npm": " 3.10.3 "
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "glob": "^7.1.1",
+    "json-server": "^0.9.6"
+  },
+  "bin": {
+    "mockapi": "index.js"
+  }
+}
