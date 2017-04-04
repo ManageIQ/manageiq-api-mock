@@ -118,7 +118,7 @@
                 "id": 10000000000004,
                 "resource_id": 10000000000004,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r4.jpg"
+                "image_href": "http://localhost:3001/pictures/10r13.jpg"
               },
               "service_template_catalog": {
                 "name": "Amazon Operations"
@@ -238,7 +238,7 @@
                 "id": 10000000000024,
                 "resource_id": 10000000000031,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r24.jpg"
+                "image_href": "http://localhost:3001/pictures/10r14.png"
               },
               "service_template_catalog": {
                 "name": "Amazon Operations"
@@ -283,7 +283,7 @@
                 "id": 10000000000038,
                 "resource_id": 10000000000048,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r38.png"
+                "image_href": "http://localhost:3001/pictures/10r14.png"
               },
               "service_template_catalog": {
                 "name": "Amazon Operations"
@@ -327,7 +327,7 @@
                 "id": 10000000000039,
                 "resource_id": 10000000000049,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r39.png"
+                "image_href": "http://localhost:3001/pictures/10r14.png"
               },
               "service_template_catalog": {
                 "name": "Amazon Operations"
@@ -371,7 +371,7 @@
                 "id": 10000000000040,
                 "resource_id": 10000000000050,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r40.png"
+                "image_href": "http://localhost:3001/pictures/10r14.png"
               },
               "service_template_catalog": {
                 "name": "Amazon Operations"
@@ -624,7 +624,7 @@
                 "id": 10000000000027,
                 "resource_id": 10000000000035,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r27.png"
+                "image_href": "http://localhost:3001/pictures/10r13.jpg"
               },
               "service_template_catalog": {
                 "name": "Hybrid Cloud Automation Items"
@@ -953,7 +953,7 @@
                 "id": 10000000000036,
                 "resource_id": 10000000000045,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r36.png"
+                "image_href": "http://localhost:3001/pictures/service.png"
               },
               "service_template_catalog": {
                 "name": "Hybrid Cloud Services"
@@ -1177,7 +1177,7 @@
                 "id": 10000000000033,
                 "resource_id": 10000000000042,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r33.jpg"
+                "image_href": "http://localhost:3001/pictures/10r12.png"
               },
               "service_template_catalog": {
                 "name": "VMware Operations"
@@ -1523,7 +1523,7 @@
                 "id": 10000000000021,
                 "resource_id": 10000000000027,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r21.jpg"
+                "image_href": "http://localhost:3001/pictures/10r16.jpg"
               },
               "service_template_catalog": {
                 "name": "OpenStack Operations"
@@ -1635,7 +1635,7 @@
                 "id": 10000000000030,
                 "resource_id": 10000000000037,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r30.png"
+                "image_href": "http://localhost:3001/pictures/10r22.png"
               },
               "service_template_catalog": {
                 "name": "Azure Operations"
@@ -1680,7 +1680,7 @@
                 "id": 10000000000029,
                 "resource_id": 10000000000036,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r29.png"
+                "image_href": "http://localhost:3001/pictures/10r22.png"
               },
               "service_template_catalog": {
                 "name": "Azure Operations"
@@ -1768,7 +1768,7 @@
                 "id": 10000000000031,
                 "resource_id": 10000000000038,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r31.png"
+                "image_href": "http://localhost:3001/pictures/service.png"
               },
               "service_template_catalog": {
                 "name": "Azure Operations"
@@ -1962,7 +1962,7 @@
                 "id": 10000000000037,
                 "resource_id": 10000000000041,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r37.png"
+                "image_href": "http://localhost:3001/pictures/service.png"
               },
               "service_template_catalog": {
                 "name": "Custom Demos"
@@ -2076,7 +2076,7 @@
                 "id": 10000000000001,
                 "resource_id": 10000000000001,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r1.png"
+                "image_href": "http://localhost:3001/pictures/10r14.png"
               },
               "service_template_catalog": {
                 "name": "poop"
