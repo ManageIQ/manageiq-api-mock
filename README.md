@@ -5,33 +5,43 @@
 ## Installation
 
 If you don't plan on doing doing development for Mock API and would just like to use what has been developed, please run 
-``` npm install -g https://github.com/ManageIQ/manageiq-api-mock.git```  
-or ``` yarn global install https://github.com/ManageIQ/manageiq-api-mock.git```
+``` npm install -g  @manageiq/manageiq-api-mock```  
+or ``` yarn global add  @manageiq/manageiq-api-mock```
 
 ## Development Installation
 Download this git repository and run 
 ``` npm install ```  
 or ``` yarn install```
 ### Mock API Usage
+If you installed this NPM package globally then you can run it anywhere on the command line by running ``` mockapi ```  
 
-This project ships with a mock REST API backend meant to help simulate the ManageIQ Server.  If you would like to launch this server. (By default it runs on port 3004)   
+(By default it runs on port 3004).  If you want to change ports or view available CLI options , run ```mockapi -h```   
 
-- ```yarn start:mock-api```
+If you want to include this node module in your project install it as you would any other dependency like 
+```yarn add @manageiq/manageiq-api-mock	```  
 
-####Configuration
+If you want to start Mock API from your package.json "scripts" section.  Here is a snippet that makes that possible
+
+``` 
+"scripts": {
+     "start:mock-api": "cd node_modules/manageiq-api-mock/ && node index.js"
+     }
+```
+Then when in your projects directory you can then start mock api by running ```yarn start:mock-api``` or ```npm start:mock-api```
+
+#### Configuration
 If you would like to get this to run on a different port , please set the following environmental variable
 ```export MOCK_API_HOST=localhost:3005``` or whatever port you would like.  
 
 If you would like to debug incoming http requests please set the following environmental variable
 ```export LOG_LEVEL=debug```
 
-####How to add data and RESTful endpoint data
+#### How to add data and RESTful endpoint data
 
-In the root of the project exists a folder /mock_api  
-If you look you will see a folder named **data** that contains subfolders that have .json files.  
+If you look at the root of the project you will see a folder named **data** that contains subfolders that have .json files.  
 If you want to add a new restful endpoint or edit an existing endpoint create a file with the following naming convention```unique_filename.json```  
 
-* Please note that the folders under mock_api/data are just to help organize files and do not have to match the endpoint the files underneath are for.  
+* Please note that the folders under **data** are just to help organize files and do not have to match the endpoint the files underneath are for.  
  
 Below you will see a sample of what one of the files looks like
 
@@ -52,7 +62,7 @@ Key Elements in configuration
 - **post** - This is a object with the data you would like the server to respond with 
 - **delete** - This is a object with the data you would like the server to respond with 
 
-####Handling querystrings and subpaths
+#### Handling querystrings and subpaths
 
 Sometimes you will have urls with querystrings you need to handle
 like *http://localhost:3000/api/blueprints?test=123*
@@ -77,5 +87,5 @@ or subpaths
 }
 
 ```
-####Overriding stock endpoints with local changes
-If you would like to override any of the endpoints in the repo please drop the overriden files into the mock_api/local directory structure.  This will pick up and override files that match from stock data.  
+#### Overriding stock endpoints with local changes
+If you would like to override any of the endpoints in the repo please drop the overriden files into the **/local** directory structure.  This will pick up and override files that match from stock data.  
