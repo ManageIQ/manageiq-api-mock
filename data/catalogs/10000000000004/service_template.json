@@ -1,0 +1,52 @@
+{
+    "url": "service_templates/10000000000004?attributes=picture%2Cpicture.image_href",
+    "get": {
+        "href": "http://localhost:3001/api/service_templates/10000000000004",
+        "id": 10000000000004,
+        "name": "Deploy RHEL7 with PostgreSQL",
+        "description": "Deploy RHEL7 with PostgreSQL",
+        "guid": "8feb7936-4e0d-11e6-b213-005056b170bd",
+        "options": {},
+        "created_at": "2016-07-20T00:04:43Z",
+        "updated_at": "2016-07-20T00:04:43Z",
+        "display": true,
+        "miq_group_id": 10000000000002,
+        "service_type": "composite",
+        "service_template_catalog_id": 10000000000001,
+        "long_description": "",
+        "tenant_id": 10000000000001,
+        "picture": {
+            "id": 10000000000004,
+            "resource_id": 10000000000004,
+            "resource_type": "ServiceTemplate",
+            "image_href": "http://localhost:3001/pictures/10r13.jpg"
+        },
+        "config_info": {
+            "provision": {
+                "dialog_id": 10000000000018,
+                "fqname": "/Service/Provisioning/StateMachines/ServiceProvision_Template/CatalogBundleInitialization"
+            },
+            "retirement": {
+                "dialog_id": 10000000000018,
+                "fqname": "/Service/Retirement/StateMachines/ServiceRetirement/Default"
+            }
+        },
+        "actions": [
+            {
+                "name": "edit",
+                "method": "post",
+                "href": "http://localhost:3001/api/service_templates/10000000000004"
+            },
+            {
+                "name": "delete",
+                "method": "post",
+                "href": "http://localhost:3001/api/service_templates/10000000000004"
+            },
+            {
+                "name": "delete",
+                "method": "delete",
+                "href": "http://localhost:3001/api/service_templates/10000000000004"
+            }
+        ]
+    }
+}

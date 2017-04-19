@@ -2,8 +2,8 @@
   "url": "services?filter[]=ancestry%3Dnull",
   "get": {
     "name": "services",
-    "count": 3,
-    "subcount": 3,
+    "count": 4,
+    "subcount": 4,
     "resources": [
       {
         "href": "http://localhost:3001/api/services/10000000000411"

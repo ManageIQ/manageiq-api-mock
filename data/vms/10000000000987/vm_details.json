@@ -1,5 +1,5 @@
 {
-    "url": "vms/10000000000987?attributes=advanced_settings%2Cboot_time%2Ccloud%2Ccompliances%2Ccpu_affinity%2Ccreated_on%2Cdisks%2Cdisks_aligned%2Cdrift_states%2Cems_cluster%2Cext_management_system%2Cevm_owner%2Cfiles%2Cguest_applications%2Cgroups%2Cguid%2Chardware%2Chost%2Chostnames%2Cid%2Cipaddresses%2Ckernel_drivers%2Clans%2Clast_sync_on%2Clinux_initprocesses%2Clast_compliance_status%2Cmiq_group%2Cmiq_provision%2Cmiq_provision_requests%2Cmiq_provision_vms%2Cname%2Cnum_disks%2Cparent_resource_pool%2Cpower_state%2Cretired%2Cretires_on%2Cscan_histories%2Cservice%2Cservice_resources%2Csnapshots%2Cstate_changed_on%2Cstorages%2Ctags%2Ctemplate%2Cthin_provisioned%2Ctools_status%2Cuid_ems%2Cusers%2Cvendor%2Cvmsafe_enable",
+    "url": "vms/10000000000987?expand=&attributes=advanced_settings%2Cboot_time%2Ccloud%2Ccompliances%2Ccpu_affinity%2Ccreated_on%2Cdisks%2Cdisks_aligned%2Cdrift_states%2Cems_cluster%2Cext_management_system%2Cevm_owner%2Cfiles%2Cguest_applications%2Cgroups%2Cguid%2Chardware%2Chost%2Chostnames%2Cid%2Cipaddresses%2Ckernel_drivers%2Clans%2Clast_sync_on%2Clinux_initprocesses%2Clast_compliance_status%2Cmiq_group%2Cmiq_provision%2Cmiq_provision_requests%2Cmiq_provision_vms%2Cname%2Cnum_disks%2Cparent_resource_pool%2Cpower_state%2Cretired%2Cretires_on%2Cscan_histories%2Cservice%2Cservice.miq_request%2Cservice_resources%2Csnapshots%2Cstate_changed_on%2Cstorages%2Ctags%2Ctemplate%2Cthin_provisioned%2Ctools_status%2Cuid_ems%2Cusers%2Cvendor%2Cv_total_snapshots%2Cvmsafe_enable",
     "get": {
         "href": "http://localhost:3001/api/vms/10000000000987",
         "id": 10000000000987,
@@ -9,6 +9,7 @@
         "guid": "a49de6ca-81c5-11e6-983c-005056b171b4",
         "name": "mywebserver",
         "power_state": "terminated",
+        "retired": false,
         "retires_on": "2016-10-23T00:00:00Z",
         "state_changed_on": "2016-09-28T17:28:18Z",
         "template": false,
@@ -397,7 +398,46 @@
             "updated_at": "2016-09-23T19:38:46Z",
             "evm_owner_id": 10000000000007,
             "miq_group_id": 10000000000021,
-            "tenant_id": 10000000000001
+            "retired": false,
+            "tenant_id": 10000000000001,
+            "initiator": "user",
+            "miq_request": {
+                "id": 10000000000207,
+                "description": "Provisioning Service [RHEL7 on Amazon AWS] from [RHEL7 on Amazon AWS]",
+                "approval_state": "approved",
+                "type": "ServiceTemplateProvisionRequest",
+                "created_on": "2016-09-23T19:35:57Z",
+                "updated_on": "2016-09-23T19:42:40Z",
+                "fulfilled_on": "2016-09-23T19:42:40Z",
+                "requester_id": 10000000000007,
+                "requester_name": "Cloud Operator",
+                "request_type": "clone_to_service",
+                "request_state": "finished",
+                "message": "Request complete",
+                "status": "Ok",
+                "options": {
+                    "dialog": {
+                        "dialog_service_name": "app",
+                        "dialog_tag_0_environment": "dev",
+                        "dialog_option_1_vm_name": "mywebserver",
+                        "dialog_tag_1_function": "web",
+                        "dialog_option_1_keypair": ""
+                    },
+                    "workflow_settings": {
+                        "resource_action_id": 10000000001083,
+                        "dialog_id": 10000000000009
+                    },
+                    "src_id": 10000000000018,
+                    "requester_group": "cloud-operators",
+                    "delivered_on": "2016-09-23T19:38:33.448Z"
+                },
+                "userid": "cloudops",
+                "source_id": 10000000000018,
+                "source_type": "ServiceTemplate",
+                "tenant_id": 10000000000001,
+                "service_order_id": 10000000000105,
+                "process": true
+            }
         },
         "service_resources": [
             {
@@ -426,6 +466,7 @@
             }
         ],
         "thin_provisioned": false,
-        "users": []
+        "users": [],
+        "v_total_snapshots": 0
     }
 }

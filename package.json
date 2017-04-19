@@ -1,6 +1,6 @@
 {
   "name": "manageiq-api-mock",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mock REST API for ManageIQ",
   "author": "Red Hat",
   "main": "index.js",
