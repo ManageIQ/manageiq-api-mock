@@ -1,0 +1,194 @@
+{
+    "url": "service_templates/10000000000004/service_dialogs?expand=resources&attributes=content",
+    "get": {
+        "name": "service_dialogs",
+        "count": 32,
+        "subcount": 1,
+        "resources": [
+            {
+                "href": "http://localhost:3001/api/service_templates/10000000000004/service_dialogs/10000000000018",
+                "id": 10000000000018,
+                "description": "Deploy RHEL7 with PostgreSQL",
+                "buttons": "submit,cancel",
+                "created_at": "2016-09-23T23:26:30Z",
+                "updated_at": "2016-09-23T23:26:30Z",
+                "label": "Deploy RHEL7 with PostgreSQL",
+                "content": [
+                    {
+                        "id": 10000000000018,
+                        "description": "Deploy RHEL7 with PostgreSQL",
+                        "buttons": "submit,cancel",
+                        "created_at": "2016-09-23T23:26:30Z",
+                        "updated_at": "2016-09-23T23:26:30Z",
+                        "label": "Deploy RHEL7 with PostgreSQL",
+                        "dialog_tabs": [
+                            {
+                                "id": 10000000000299,
+                                "description": "Instance Details",
+                                "display": "edit",
+                                "created_at": "2016-09-23T23:26:30Z",
+                                "updated_at": "2016-09-23T23:26:30Z",
+                                "label": "Instance Details",
+                                "dialog_id": 10000000000018,
+                                "position": 0,
+                                "dialog_groups": [
+                                    {
+                                        "id": 10000000000666,
+                                        "description": "Instance Details",
+                                        "display": "edit",
+                                        "created_at": "2016-09-23T23:26:30Z",
+                                        "updated_at": "2016-09-23T23:26:30Z",
+                                        "label": "Instance Details",
+                                        "dialog_tab_id": 10000000000299,
+                                        "position": 0,
+                                        "dialog_fields": [
+                                            {
+                                                "id": 10000000001873,
+                                                "name": "vm_name",
+                                                "data_type": "string",
+                                                "display": "edit",
+                                                "display_method_options": {},
+                                                "required": true,
+                                                "required_method_options": {},
+                                                "default_value": "changeme",
+                                                "values_method_options": {},
+                                                "options": {
+                                                    "protected": false
+                                                },
+                                                "created_at": "2016-09-23T23:26:30Z",
+                                                "updated_at": "2016-09-23T23:26:30Z",
+                                                "label": "VM Name",
+                                                "dialog_group_id": 10000000000666,
+                                                "position": 0,
+                                                "validator_type": "regex",
+                                                "validator_rule": "^[a-z][a-z0-9\\-]*$",
+                                                "dynamic": false,
+                                                "read_only": false,
+                                                "trigger_auto_refresh": true,
+                                                "visible": true,
+                                                "type": "DialogFieldTextBox",
+                                                "resource_action": {
+                                                    "resource_type": "DialogField",
+                                                    "ae_attributes": {}
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 10000000000300,
+                                "display": "edit",
+                                "created_at": "2016-09-23T23:26:30Z",
+                                "updated_at": "2016-09-23T23:26:30Z",
+                                "label": "Database Details",
+                                "dialog_id": 10000000000018,
+                                "position": 1,
+                                "dialog_groups": [
+                                    {
+                                        "id": 10000000000667,
+                                        "display": "edit",
+                                        "created_at": "2016-09-23T23:26:30Z",
+                                        "updated_at": "2016-09-23T23:26:30Z",
+                                        "label": "Database Details",
+                                        "dialog_tab_id": 10000000000300,
+                                        "position": 0,
+                                        "dialog_fields": [
+                                            {
+                                                "id": 10000000001874,
+                                                "name": "limit",
+                                                "data_type": "string",
+                                                "display": "edit",
+                                                "display_method_options": {},
+                                                "required": true,
+                                                "required_method_options": {},
+                                                "default_value": "",
+                                                "values": "changeme",
+                                                "values_method_options": {},
+                                                "options": {
+                                                    "protected": false
+                                                },
+                                                "created_at": "2016-09-23T23:26:30Z",
+                                                "updated_at": "2016-09-23T23:26:30Z",
+                                                "label": "Limit",
+                                                "dialog_group_id": 10000000000667,
+                                                "position": 0,
+                                                "dynamic": true,
+                                                "show_refresh_button": false,
+                                                "read_only": false,
+                                                "auto_refresh": true,
+                                                "visible": true,
+                                                "type": "DialogFieldTextBox",
+                                                "resource_action": {
+                                                    "resource_type": "DialogField",
+                                                    "ae_namespace": "AnsibleTower",
+                                                    "ae_class": "AnsibleDialog",
+                                                    "ae_instance": "Get_VM_Name",
+                                                    "ae_attributes": {}
+                                                }
+                                            },
+                                            {
+                                                "id": 10000000001875,
+                                                "name": "param_postgresql_databases",
+                                                "data_type": "string",
+                                                "display": "edit",
+                                                "display_method_options": {},
+                                                "required": false,
+                                                "required_method_options": {},
+                                                "default_value": "[{\"name\": \"database\"}]",
+                                                "values_method_options": {},
+                                                "options": {
+                                                    "protected": false
+                                                },
+                                                "created_at": "2016-09-23T23:26:30Z",
+                                                "updated_at": "2016-09-23T23:26:30Z",
+                                                "label": "Database Name",
+                                                "dialog_group_id": 10000000000667,
+                                                "position": 1,
+                                                "dynamic": false,
+                                                "read_only": false,
+                                                "visible": true,
+                                                "type": "DialogFieldTextBox",
+                                                "resource_action": {
+                                                    "resource_type": "DialogField",
+                                                    "ae_attributes": {}
+                                                }
+                                            },
+                                            {
+                                                "id": 10000000001876,
+                                                "name": "param_postgresql_users",
+                                                "data_type": "string",
+                                                "display": "edit",
+                                                "display_method_options": {},
+                                                "required": false,
+                                                "required_method_options": {},
+                                                "default_value": "[{\"name\": \"test\",\"password\": \"test\"}]",
+                                                "values_method_options": {},
+                                                "options": {
+                                                    "protected": false
+                                                },
+                                                "created_at": "2016-09-23T23:26:30Z",
+                                                "updated_at": "2016-09-23T23:26:30Z",
+                                                "label": "Database User",
+                                                "dialog_group_id": 10000000000667,
+                                                "position": 2,
+                                                "dynamic": false,
+                                                "read_only": false,
+                                                "visible": true,
+                                                "type": "DialogFieldTextBox",
+                                                "resource_action": {
+                                                    "resource_type": "DialogField",
+                                                    "ae_attributes": {}
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
