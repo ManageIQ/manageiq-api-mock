@@ -7,6 +7,7 @@
   "repository": "https://github.com/ManageIQ/manageiq-api-mock.git",
   "license": "Apache-2.0",
   "scripts": {
+    "commit": "git-cz",
     "start": "node index.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
@@ -23,6 +24,13 @@
     "mockapi": "index.js"
   },
   "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0",
     "semantic-release": "^6.3.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

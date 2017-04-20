@@ -60,3 +60,5 @@ typings/
 #local db and local json files
 db.json
 local/*.json
+
+.DS_Store*
