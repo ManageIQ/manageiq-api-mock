@@ -49,7 +49,7 @@
                 "id": 10000000000002,
                 "resource_id": 10000000000002,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r2.jpg"
+                "image_href": "/pictures/10r2.jpg"
               },
               "service_template_catalog": {
                 "name": "Amazon Operations"
@@ -84,7 +84,7 @@
                 "id": 10000000000003,
                 "resource_id": 10000000000003,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r3.png"
+                "image_href": "/pictures/10r3.png"
               },
               "service_template_catalog": {
                 "name": "Amazon Operations"
@@ -118,7 +118,7 @@
                 "id": 10000000000004,
                 "resource_id": 10000000000004,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r13.jpg"
+                "image_href": "/pictures/10r13.jpg"
               },
               "service_template_catalog": {
                 "name": "Amazon Operations"
@@ -162,7 +162,7 @@
                 "id": 10000000000014,
                 "resource_id": 10000000000018,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r14.png"
+                "image_href": "/pictures/10r14.png"
               },
               "service_template_catalog": {
                 "name": "Amazon Operations"
@@ -204,7 +204,7 @@
                 "id": 10000000000023,
                 "resource_id": 10000000000032,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r23.jpg"
+                "image_href": "/pictures/10r23.jpg"
               },
               "service_template_catalog": {
                 "name": "Amazon Operations"
@@ -238,7 +238,7 @@
                 "id": 10000000000024,
                 "resource_id": 10000000000031,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r14.png"
+                "image_href": "/pictures/10r14.png"
               },
               "service_template_catalog": {
                 "name": "Amazon Operations"
@@ -283,7 +283,7 @@
                 "id": 10000000000038,
                 "resource_id": 10000000000048,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r14.png"
+                "image_href": "/pictures/10r14.png"
               },
               "service_template_catalog": {
                 "name": "Amazon Operations"
@@ -327,7 +327,7 @@
                 "id": 10000000000039,
                 "resource_id": 10000000000049,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r14.png"
+                "image_href": "/pictures/10r14.png"
               },
               "service_template_catalog": {
                 "name": "Amazon Operations"
@@ -371,7 +371,7 @@
                 "id": 10000000000040,
                 "resource_id": 10000000000050,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r14.png"
+                "image_href": "/pictures/10r14.png"
               },
               "service_template_catalog": {
                 "name": "Amazon Operations"
@@ -483,7 +483,7 @@
                 "id": 10000000000005,
                 "resource_id": 10000000000005,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r5.png"
+                "image_href": "/pictures/10r5.png"
               },
               "service_template_catalog": {
                 "name": "Hybrid Cloud Automation Items"
@@ -518,7 +518,7 @@
                 "id": 10000000000006,
                 "resource_id": 10000000000006,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r6.png"
+                "image_href": "/pictures/10r6.png"
               },
               "service_template_catalog": {
                 "name": "Hybrid Cloud Automation Items"
@@ -553,7 +553,7 @@
                 "id": 10000000000025,
                 "resource_id": 10000000000033,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r25.png"
+                "image_href": "/pictures/10r25.png"
               },
               "service_template_catalog": {
                 "name": "Hybrid Cloud Automation Items"
@@ -588,7 +588,7 @@
                 "id": 10000000000026,
                 "resource_id": 10000000000034,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r26.png"
+                "image_href": "/pictures/10r26.png"
               },
               "service_template_catalog": {
                 "name": "Hybrid Cloud Automation Items"
@@ -624,7 +624,7 @@
                 "id": 10000000000027,
                 "resource_id": 10000000000035,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r13.jpg"
+                "image_href": "/pictures/10r13.jpg"
               },
               "service_template_catalog": {
                 "name": "Hybrid Cloud Automation Items"
@@ -736,7 +736,7 @@
                 "id": 10000000000007,
                 "resource_id": 10000000000007,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r7.jpg"
+                "image_href": "/pictures/10r7.jpg"
               },
               "service_template_catalog": {
                 "name": "Hybrid Cloud Provisioning Items"
@@ -771,7 +771,7 @@
                 "id": 10000000000008,
                 "resource_id": 10000000000008,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r8.jpg"
+                "image_href": "/pictures/10r8.jpg"
               },
               "service_template_catalog": {
                 "name": "Hybrid Cloud Provisioning Items"
@@ -806,7 +806,7 @@
                 "id": 10000000000009,
                 "resource_id": 10000000000009,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r9.jpg"
+                "image_href": "/pictures/10r9.jpg"
               },
               "service_template_catalog": {
                 "name": "Hybrid Cloud Provisioning Items"
@@ -908,7 +908,7 @@
                 "id": 10000000000010,
                 "resource_id": 10000000000010,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r10.png"
+                "image_href": "/pictures/10r10.png"
               },
               "service_template_catalog": {
                 "name": "Hybrid Cloud Services"
@@ -953,7 +953,7 @@
                 "id": 10000000000036,
                 "resource_id": 10000000000045,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/service.png"
+                "image_href": "/pictures/service.png"
               },
               "service_template_catalog": {
                 "name": "Hybrid Cloud Services"
@@ -1066,7 +1066,7 @@
                 "id": 10000000000012,
                 "resource_id": 10000000000015,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r12.png"
+                "image_href": "/pictures/10r12.png"
               },
               "service_template_catalog": {
                 "name": "VMware Operations"
@@ -1109,7 +1109,7 @@
                 "id": 10000000000034,
                 "resource_id": 10000000000043,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r34.jpg"
+                "image_href": "/pictures/10r34.jpg"
               },
               "service_template_catalog": {
                 "name": "VMware Operations"
@@ -1143,7 +1143,7 @@
                 "id": 10000000000035,
                 "resource_id": 10000000000044,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r35.jpg"
+                "image_href": "/pictures/10r35.jpg"
               },
               "service_template_catalog": {
                 "name": "VMware Operations"
@@ -1177,7 +1177,7 @@
                 "id": 10000000000033,
                 "resource_id": 10000000000042,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r12.png"
+                "image_href": "/pictures/10r12.png"
               },
               "service_template_catalog": {
                 "name": "VMware Operations"
@@ -1290,7 +1290,7 @@
                 "id": 10000000000013,
                 "resource_id": 10000000000016,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r13.jpg"
+                "image_href": "/pictures/10r13.jpg"
               },
               "service_template_catalog": {
                 "name": "RHEV Operations"
@@ -1480,7 +1480,7 @@
                 "id": 10000000000016,
                 "resource_id": 10000000000021,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r16.jpg"
+                "image_href": "/pictures/10r16.jpg"
               },
               "service_template_catalog": {
                 "name": "OpenStack Operations"
@@ -1523,7 +1523,7 @@
                 "id": 10000000000021,
                 "resource_id": 10000000000027,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r16.jpg"
+                "image_href": "/pictures/10r16.jpg"
               },
               "service_template_catalog": {
                 "name": "OpenStack Operations"
@@ -1635,7 +1635,7 @@
                 "id": 10000000000030,
                 "resource_id": 10000000000037,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r22.png"
+                "image_href": "/pictures/10r22.png"
               },
               "service_template_catalog": {
                 "name": "Azure Operations"
@@ -1680,7 +1680,7 @@
                 "id": 10000000000029,
                 "resource_id": 10000000000036,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r22.png"
+                "image_href": "/pictures/10r22.png"
               },
               "service_template_catalog": {
                 "name": "Azure Operations"
@@ -1724,7 +1724,7 @@
                 "id": 10000000000022,
                 "resource_id": 10000000000029,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r22.png"
+                "image_href": "/pictures/10r22.png"
               },
               "service_template_catalog": {
                 "name": "Azure Operations"
@@ -1768,7 +1768,7 @@
                 "id": 10000000000031,
                 "resource_id": 10000000000038,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/service.png"
+                "image_href": "/pictures/service.png"
               },
               "service_template_catalog": {
                 "name": "Azure Operations"
@@ -1880,7 +1880,7 @@
                 "id": 10000000000028,
                 "resource_id": 10000000000028,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r28.png"
+                "image_href": "/pictures/10r28.png"
               },
               "service_template_catalog": {
                 "name": "Custom Demos"
@@ -1962,7 +1962,7 @@
                 "id": 10000000000037,
                 "resource_id": 10000000000041,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/service.png"
+                "image_href": "/pictures/service.png"
               },
               "service_template_catalog": {
                 "name": "Custom Demos"
@@ -2076,7 +2076,7 @@
                 "id": 10000000000001,
                 "resource_id": 10000000000001,
                 "resource_type": "ServiceTemplate",
-                "image_href": "http://localhost:3001/pictures/10r14.png"
+                "image_href": "/pictures/10r14.png"
               },
               "service_template_catalog": {
                 "name": "poop"

@@ -114,7 +114,7 @@
       "id": 10000000000010,
       "resource_id": 10000000000010,
       "resource_type": "ServiceTemplate",
-      "image_href": "http://localhost:3001/pictures/10r10.png"
+      "image_href": "/pictures/10r10.png"
     },
     "actions": [
       {
