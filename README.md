@@ -1,8 +1,9 @@
 # ManageIQ Mock API
 
 [![Build Status](https://travis-ci.org/ManageIQ/manageiq-api-mock.svg?branch=master)](https://travis-ci.org/ManageIQ/manageiq-api-mock)
-[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=plastic)](https://github.com/semantic-release/semantic-release)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)  
+
 ## Installation
 
 If you don't plan on doing doing development for Mock API and would just like to use what has been developed, please run 
