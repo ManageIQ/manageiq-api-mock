@@ -90,3 +90,6 @@ or subpaths
 ```
 #### Overriding stock endpoints with local changes
 If you would like to override any of the endpoints in the repo please drop the overriden files into the **/local** directory structure.  This will pick up and override files that match from stock data.  
+
+### Contributing
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) for more details on how to contribute to this repo. 
