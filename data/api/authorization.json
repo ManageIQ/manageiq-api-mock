@@ -261,7 +261,7 @@
                     "action": {
                         "name": "create",
                         "method": "post",
-                        "href": "http://localhost:3001/api/pictures"
+                        "href": "http://localhost:3001/api/pictures/"
                     }
                 },
                 "about": {
@@ -6662,7 +6662,7 @@
             },
             {
                 "name": "pictures",
-                "href": "http://localhost:3001/api/pictures",
+                "href": "http://localhost:3001/api/pictures/",
                 "description": "Pictures"
             },
             {

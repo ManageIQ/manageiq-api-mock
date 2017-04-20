@@ -19,7 +19,7 @@
             "id": 10000000000004,
             "resource_id": 10000000000004,
             "resource_type": "ServiceTemplate",
-            "image_href": "http://localhost:3001/pictures/10r13.jpg"
+            "image_href": "/pictures/10r13.jpg"
         },
         "config_info": {
             "provision": {
