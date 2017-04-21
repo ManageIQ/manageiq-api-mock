@@ -2,7 +2,7 @@
   "name": "@manageiq/manageiq-api-mock",
   "version": "0.0.0-development",
   "description": "Mock REST API for ManageIQ",
-  "author": "Chris Hale / Red Hat",
+  "author": "Red Hat",
   "main": "index.js",
   "repository": "https://github.com/ManageIQ/manageiq-api-mock.git",
   "license": "Apache-2.0",
