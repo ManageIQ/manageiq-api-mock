@@ -62,3 +62,6 @@ db.json
 local/*.json
 
 .DS_Store*
+
+# project files
+.idea*
