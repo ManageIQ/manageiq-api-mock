@@ -16,7 +16,7 @@
           "id": 10000000000010,
           "resource_id": 10000000000010,
           "resource_type": "ServiceTemplate",
-          "image_href": "http://localhost:3001/images/service.png"
+          "image_href": "/images/service.png"
         }
       },
       {
@@ -30,7 +30,7 @@
           "id": 10000000000012,
           "resource_id": 10000000000015,
           "resource_type": "ServiceTemplate",
-          "image_href": "http://localhost:3001/images/service.png"
+          "image_href": "/images/service.png"
         }
       },
       {
@@ -44,7 +44,7 @@
           "id": 10000000000001,
           "resource_id": 10000000000001,
           "resource_type": "ServiceTemplate",
-          "image_href": "http://localhost:3001/images/service.png"
+          "image_href": "/images/service.png"
         }
       }
     ]
