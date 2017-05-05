@@ -93,3 +93,6 @@ If you would like to override any of the endpoints in the repo please drop the o
 
 ### Contributing
 Please see [CONTRIBUTING.md](CONTRIBUTING.md) for more details on how to contribute to this repo. 
+
+### Versioning
+This repo utilizes Semantic release versioning. Please refer to [Semantic Release](https://github.com/semantic-release/semantic-release) documentation or our [CONTRIBUTING.md](CONTRIBUTING.md) to learn more about how version changelogs and versions are auto generated.  To view the most up to date version changelog, please refer to [Releases](https://github.com/ManageIQ/manageiq-api-mock/releases)
