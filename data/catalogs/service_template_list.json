@@ -1,5 +1,5 @@
 {
-  "url": "service_templates?expand=resources&attributes=picture,picture.image_href,service_template_catalog&filter[]=display=true&limit=20&sort_by=name&sort_order=asc&sort_options=ignore_case",
+  "url": "service_templates?expand=resources&attributes=picture%2Cpicture.image_href%2Cservice_template_catalog&filter[]=display%3Dtrue&limit=20&sort_by=name&sort_order=asc&sort_options=ignore_case",
   "get": {
     "name": "service_templates",
     "count": 39,
