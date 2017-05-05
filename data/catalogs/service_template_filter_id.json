@@ -1,5 +1,5 @@
 {
-  "url": "service_templates?filter[]=display=true&hide=resources",
+  "url": "service_templates?filter[]=display%3Dtrue&hide=resources",
   "get": {
     "name": "service_templates",
     "count": 39,
