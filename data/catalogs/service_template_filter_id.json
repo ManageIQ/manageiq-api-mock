@@ -1,0 +1,32 @@
+{
+  "url": "service_templates?filter[]=display=true&hide=resources",
+  "get": {
+    "name": "service_templates",
+    "count": 39,
+    "subcount": 26,
+    "actions": [
+      {
+        "name": "query",
+        "method": "post",
+        "href": "http://localhost:3001/api/service_templates"
+      },
+      {
+        "name": "edit",
+        "method": "post",
+        "href": "http://localhost:3001/api/service_templates"
+      },
+      {
+        "name": "delete",
+        "method": "post",
+        "href": "http://localhost:3001/api/service_templates"
+      },
+      {
+        "name": "create",
+        "method": "post",
+        "href": "http://localhost:3001/api/service_templates"
+      }
+    ]
+  },
+  "post": {},
+  "delete": {}
+}

@@ -61,4 +61,7 @@ typings/
 db.json
 local/*.json
 
+#Project Files #
+.idea*
+
 .DS_Store*
