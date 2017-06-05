@@ -1,5 +1,5 @@
 {
-  "url": "services/10000000000405?expand=vms%2Corchestration_stacks&attributes=name%2Cguid%2Ccreated_at%2Ctype%2Cdescription%2Cpicture%2Cpicture.image_href%2Cevm_owner.name%2Cevm_owner.userid%2Cmiq_group.description%2Call_service_children%2Caggregate_all_vm_cpus%2Caggregate_all_vm_memory%2Caggregate_all_vm_disk_count%2Caggregate_all_vm_disk_space_allocated%2Caggregate_all_vm_disk_space_used%2Caggregate_all_vm_memory_on_disk%2Cretired%2Cretirement_state%2Cretirement_warn%2Cretires_on%2Cactions%2Ccustom_actions%2Cprovision_dialog%2Cservice_resources%2Cchargeback_report%2Cservice_template%2Cparent_service%2Cpower_state%2Cpower_status%2Coptions%2Cvms.ipaddresses%2Cvms.snapshots%2Cvms.v_total_snapshots%2Cvms.v_snapshot_newest_name%2Cvms.v_snapshot_newest_timestamp%2Cvms.v_snapshot_newest_total_size%2Cvms.supports_console%3F%2Cvms.supports_launch_cockpit%3F",
+  "url": "services/10000000000405?expand=vms%2Corchestration_stacks&attributes=name%2Cguid%2Ccreated_at%2Ctype%2Cdescription%2Cpicture%2Cpicture.image_href%2Cevm_owner.name%2Cevm_owner.userid%2Cmiq_group.description%2Call_service_children%2Caggregate_all_vm_cpus%2Caggregate_all_vm_memory%2Caggregate_all_vm_disk_count%2Caggregate_all_vm_disk_space_allocated%2Caggregate_all_vm_disk_space_used%2Caggregate_all_vm_memory_on_disk%2Cretired%2Cretirement_state%2Cretirement_warn%2Cretires_on%2Cactions%2Ccustom_actions%2Cprovision_dialog%2Cservice_resources%2Cchargeback_report%2Cservice_template%2Cparent_service%2Cpower_state%2Cpower_status%2Coptions%2Cvms.ipaddresses%2Cvms.snapshots%2Cvms.v_total_snapshots%2Cvms.v_snapshot_newest_name%2Cvms.v_snapshot_newest_timestamp%2Cvms.v_snapshot_newest_total_size%2Cvms.supports_console%3F%2Cvms.supports_launch_cockpit%3F%2Cvms.max_mem_usage_absolute_average_avg_over_time_period%2Cvms.hardware%2Cvms.hardware.aggregate_cpu_speed%2Cvms.cpu_usagemhz_rate_average_avg_over_time_period",
   "get": {
     "href": "http://localhost:3001/api/services/10000000000405",
     "id": 10000000000405,
@@ -67,7 +67,9 @@
         "retirement_last_warn": "2016-11-03T00:11:55Z",
         "cloud": false,
         "raw_power_state": "up",
-        "tenant_id": 10000000000001
+        "tenant_id": 10000000000001,
+        "cpu_usagemhz_rate_average_avg_over_time_period": 0,
+        "max_mem_usage_absolute_average_avg_over_time_period": 0
       }
     ],
     "aggregate_all_vm_cpus": 1,
@@ -77,9 +79,246 @@
     "aggregate_all_vm_disk_space_used": 1164054528,
     "aggregate_all_vm_memory_on_disk": 2147483648,
     "custom_actions": {
-      "buttons": [],
-      "button_groups": []
+    "buttons": [
+      {
+        "id": 1,
+        "guid": "3d5975fe-57bb-11e5-8d22-000a27020067",
+        "description": "Rescan Service Offering",
+        "applies_to_class": "ServiceTemplate",
+        "options": {
+          "button_image": 2,
+          "display": true
+        },
+        "userid": "admin",
+        "created_on": "2015-09-10T12:55:40Z",
+        "updated_on": "2015-09-16T14:28:17Z",
+        "name": "Rescan",
+        "visibility": {
+          "roles": [
+            "_ALL_"
+          ]
+        },
+        "applies_to_id": 7,
+        "resource_action": {
+          "id": 7,
+          "resource_id": 1,
+          "resource_type": "CustomButton",
+          "created_at": "2015-09-10T12:55:40Z",
+          "updated_at": "2015-09-16T14:28:17Z",
+          "ae_namespace": "SYSTEM",
+          "ae_class": "PROCESS",
+          "ae_instance": "Request",
+          "ae_attributes": {
+            "key1": "val1",
+            "key2": "val2",
+            "request": "InspectMe"
+          }
+        }
+      },
+      {
+        "id": 2,
+        "guid": "7c900d18-57c1-11e5-8d22-000a27020067",
+        "description": "Ping Service Status",
+        "applies_to_class": "ServiceTemplate",
+        "options": {
+          "button_image": 3,
+          "display": true
+        },
+        "userid": "admin",
+        "created_on": "2015-09-10T13:40:23Z",
+        "updated_on": "2015-09-16T14:16:21Z",
+        "name": "Ping",
+        "visibility": {
+          "roles": [
+            "_ALL_"
+          ]
+        },
+        "applies_to_id": 7,
+        "resource_action": {
+          "id": 8,
+          "resource_id": 2,
+          "resource_type": "CustomButton",
+          "created_at": "2015-09-10T13:40:23Z",
+          "updated_at": "2015-09-16T14:16:21Z",
+          "ae_namespace": "SYSTEM",
+          "ae_class": "PROCESS",
+          "ae_instance": "Request",
+          "ae_attributes": {
+            "Class": "System",
+            "rel2": "//ManageIQ/System/Request/InspectMe",
+            "request": "InspectMe"
+          }
+        }
+      }
+    ],
+    "button_groups": [
+      {
+        "id": 43,
+        "name": "MyButtonGroup|ServiceTemplate|7",
+        "description": "My Custom Buttons",
+        "created_on": "2015-09-10T13:41:20Z",
+        "updated_on": "2015-09-15T14:53:49Z",
+        "guid": "9e4a9900-57c1-11e5-8d22-000a27020067",
+        "set_data": {
+          "button_order": [
+            3
+          ],
+          "button_image": 1,
+          "display": true,
+          "applies_to_class": "ServiceTemplate",
+          "applies_to_id": 7,
+          "group_index": 1
+        },
+        "owner_type": "ServiceTemplate",
+        "owner_id": 7,
+        "buttons": [
+          {
+            "id": 3,
+            "guid": "92ac7d88-5bb9-11e5-b2f7-000a27020067",
+            "description": "Simulate Button Dialog",
+            "applies_to_class": "ServiceTemplate",
+            "options": {
+              "button_image": 12,
+              "display": true
+            },
+            "userid": "admin",
+            "created_on": "2015-09-15T14:53:49Z",
+            "updated_on": "2015-09-16T14:28:50Z",
+            "name": "simulate",
+            "visibility": {
+              "roles": [
+                "_ALL_"
+              ]
+            },
+            "applies_to_id": 7,
+            "resource_action": {
+              "id": 12,
+              "dialog_id": 2,
+              "resource_id": 3,
+              "resource_type": "CustomButton",
+              "created_at": "2015-09-15T14:53:49Z",
+              "updated_at": "2015-09-16T14:28:50Z",
+              "ae_namespace": "SYSTEM",
+              "ae_class": "PROCESS",
+              "ae_instance": "Request",
+              "ae_attributes": {
+                "request": "InspectMe"
+              },
+              "dialog": {
+                "description": "Test Dialog 2",
+                "buttons": "submit,cancel",
+                "label": "TestDialog2",
+                "dialog_tabs": [
+                  {
+                    "description": "VM Sizing",
+                    "display": "edit",
+                    "label": "VmSizing",
+                    "position": 0,
+                    "dialog_groups": [
+                      {
+                        "description": "Memory",
+                        "display": "edit",
+                        "label": "Memory",
+                        "position": 0,
+                        "dialog_fields": [
+                          {
+                            "name": "DynamicMemory",
+                            "description": "Amount of Memory for VM is Dynamic",
+                            "type": "DialogFieldCheckBox",
+                            "display": "edit",
+                            "display_method_options": {
+                            },
+                            "required_method_options": {
+                            },
+                            "default_value": "f",
+                            "values_method_options": {
+                            },
+                            "options": {
+                            },
+                            "label": "DynamicMemory",
+                            "position": 0,
+                            "dynamic": false,
+                            "read_only": false,
+                            "resource_action": {
+                              "resource_type": "DialogField",
+                              "ae_attributes": {
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
     },
+      "custom_action_buttons": [
+    {
+      "id": 1,
+      "guid": "3d5975fe-57bb-11e5-8d22-000a27020067",
+      "description": "Rescan Service Offering",
+      "applies_to_class": "ServiceTemplate",
+      "options": {
+        "button_image": 2,
+        "display": true
+      },
+      "userid": "admin",
+      "created_on": "2015-09-10T12:55:40Z",
+      "updated_on": "2015-09-16T14:28:17Z",
+      "name": "Rescan",
+      "visibility": {
+        "roles": [
+          "_ALL_"
+        ]
+      },
+      "applies_to_id": 7
+    },
+    {
+      "id": 2,
+      "guid": "7c900d18-57c1-11e5-8d22-000a27020067",
+      "description": "Ping Service Status",
+      "applies_to_class": "ServiceTemplate",
+      "options": {
+        "button_image": 3,
+        "display": true
+      },
+      "userid": "admin",
+      "created_on": "2015-09-10T13:40:23Z",
+      "updated_on": "2015-09-16T14:16:21Z",
+      "name": "Ping",
+      "visibility": {
+        "roles": [
+          "_ALL_"
+        ]
+      },
+      "applies_to_id": 7
+    },
+    {
+      "id": 3,
+      "guid": "b9afcdfa-57c1-11e5-8d22-000a27020067",
+      "description": "Simulate Button Dialog",
+      "applies_to_class": "ServiceTemplate",
+      "options": {
+        "button_image": 3,
+        "display": true
+      },
+      "userid": "admin",
+      "created_on": "2015-09-10T13:42:06Z",
+      "updated_on": "2015-09-16T14:27:30Z",
+      "name": "Simulate",
+      "visibility": {
+        "roles": [
+          "_ALL_"
+        ]
+      },
+      "applies_to_id": 7
+    }
+      ],
     "provision_dialog": {
       "description": "Create VM",
       "buttons": "submit,cancel",
@@ -393,7 +632,10 @@
         "raw_power_state": "up",
         "tenant_id": 10000000000001,
         "supports_console?": true,
-        "supports_cockpit?": false
+        "supports_cockpit?": false,
+        "hardware":{},
+        "cpu_usagemhz_rate_average_avg_over_time_period": 0,
+        "max_mem_usage_absolute_average_avg_over_time_period": 0
       }
     ],
     "actions": [
